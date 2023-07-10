@@ -30,6 +30,7 @@ const Nav = () => {
         />
         <p className='logo_text'>JuJoPrompt</p>
       </Link>
+      
 
       {/* Desktop Navigation */}
       <div className='sm:flex hidden'>
