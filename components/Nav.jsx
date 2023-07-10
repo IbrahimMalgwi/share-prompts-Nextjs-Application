@@ -13,8 +13,8 @@ const Nav = () => {
 
   useEffect(() => {
     (async () => {
-      const res = await getProviders();
-      setProviders(res);
+      const response = await getProviders();
+      setProviders(response);
     })();
   }, []);
 
@@ -28,7 +28,7 @@ const Nav = () => {
           height={30}
           className='object-contain'
         />
-        <p className='logo_text'>Promptopia</p>
+        <p className='logo_text'>JuJoPrompt</p>
       </Link>
 
       {/* Desktop Navigation */}
